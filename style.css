@@ -1,0 +1,279 @@
+/* ##eb0000 BG Red */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+   padding-top: 50px;
+   padding-bottom: 70px;
+   background-color: rgb(240, 240, 240);
+   width: auto;
+   
+}
+
+.nav-top {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+font-size: small;
+width: auto;
+    }
+
+li {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 5px;
+    }
+
+.right-elements-top > ul {
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+   
+}
+
+.left-elements-top > ul {
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eb0000 ;
+    color: whitesmoke;
+    padding: 20px;
+    width: auto;
+}
+
+.left-elements-center {
+     justify-items: left;
+}
+
+
+.denuncia {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    
+}
+.social-media {
+    display: flex;
+ justify-content: right;
+
+}
+
+.social-media > svg {
+    padding-left: 10px;
+}
+
+.nav-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: black;
+    width: auto;
+    color: white;
+    font-weight: bold;
+    gap: 80px;
+}
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+}
+
+.card-title {
+    color: #eb0000;
+}
+
+.mas-leidas {
+    display: flex;
+    justify-content: center;
+    }
+
+img {
+    margin-bottom: 0;
+}
+
+.noticias-card-big {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+           gap: 30px;
+           width: 80%;
+           margin-left: 150px;
+  
+}
+
+.non-visible {
+   visibility: hidden;
+}
+ 
+.none-visible {
+    display: none;
+}
+
+
+.big-card-text {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    left: 15px;
+    top: -90px;
+    width: 300px;
+height: 0;
+    }
+
+.opinion-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.opinion-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+.opinion-title {
+    color: whitesmoke;
+    background-color: #eb0000;
+    width: 52%;
+    padding-left: 22px;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+
+.search-svg {
+    background-color: rgb(233, 230, 230);
+    padding: 16px;
+}
+
+.text-placeholder {
+    border: solid rgb(233, 230, 230);
+    padding: 15px;
+    padding-right: 80px ;
+    color: rgb(173, 173, 173);
+
+}
+
+.card-autores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+     width: 85%;
+     margin-left: 110px;
+
+}
+
+.autor-card {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(236, 236, 236);
+   }
+
+.autor-text {
+    width: 159px;
+    padding-top: 10px;
+    font-weight: 900;
+}
+
+
+footer {
+    background-color: black;
+}
+
+.footer-logo {
+    padding: 50px;
+    margin-left: 90px;
+}
+
+.footer-list {
+    color: whitesmoke;
+}
+@media (min-width: 318px) and (max-width:900px) {
+
+    .nav-container {
+        width: 100%;
+    }
+    .nav-bottom {
+        font-size: small;         
+        gap: 40px;
+    }
+
+    .mas-leidas {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .noticias-card-big {
+               width: 90%;
+               margin-left: 40px;
+      
+    }
+     .opinion-top {
+            flex-direction: column;
+            padding-bottom: 30px;
+           gap: 0px;
+        }
+
+
+        .opinion-search {
+            display: flex;
+           width: 300px;
+           }
+        
+        .opinion-title {
+            color: whitesmoke;
+            background-color: #eb0000;
+            width: 85%;
+            padding-left: 22px;
+            padding-bottom: 10px;
+            font-weight: 800;
+        }
+
+        .autor-text {
+            width: 138px;
+               }
+
+
+               .card-autores {
+                
+            margin-left: 50px;
+            
+            }
+
+            .none-visible  {
+                display: block;
+                visibility: hidden;
+            }
+
+            .footer-logo {
+                padding: 50px;
+                margin-left: 25px;
+            }       
+    
+}
